@@ -1,8 +1,30 @@
+
+/*header*/
+header{
+    background-color: #FFC4D0;
+}
+
+header img{
+width: 130px;
+}
+
+header ul{
+list-style: none;
+
+}
+
+.banner{
+    background-image: url(../img/banner.avif);
+   height: 200px;
+   background-repeat: no-repeat;
+   background-position: right;
+   background-color: #f6beca;
+}
+
 h1 {
-    color: beige;
+    color: #FBE8E7;
     text-align: center;
     width: auto;
-    background-color: pink;
     text-decoration: none;
     list-style-type: none;
 }
