@@ -17,6 +17,8 @@ header ul a{
     color: black;
 }
 
+/* main */
+
 .banner{
     background-image: url(../img/banner.avif);
    height: 200px;
@@ -47,5 +49,20 @@ footer{
 }
 
 footer img{
-    width: 10%;
+    width: 60px;
 }
+
+footer p{
+    font-size: 1.5rem;
+}
+
+/* servicios*/
+
+.servicios1{
+    height: 1500px;
+}
+
+.servicios2{
+    height: 1400px;
+}
+
