@@ -1,31 +1,33 @@
-
 /*header*/
-header{
+header {
     background-color: #f6beca;
 }
 
-header img{
-width: 130px;
+header img {
+    width: 130px;
 }
 
-header ul{
-list-style: none;
+header ul {
+    list-style: none;
 }
 
-header ul a{
+header ul a {
     text-decoration: none;
     color: black;
 }
 
 /* main */
 
-.banner{
+.banner {
     background-image: url(../img/banner.avif);
-   height: 200px;
-   background-repeat: no-repeat;
-   background-position: right;
-   background-color: #f6beca;
-   font-size: 2rem;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #f6beca;
+    font-size: 2rem;
+    border: 3px pink solid;
+    width: 2000px;
+    
 }
 
 h1 {
@@ -37,22 +39,23 @@ h1 {
     text-decoration: underline;
 }
 
-.textIndex{
+.textIndex {
     font-size: 1.8rem;
+    text-align: center;
 }
 
 /* footer */
 
-footer{
+footer {
     background-color: #f6beca;
-    
+
 }
 
-footer img{
+footer img {
     width: 60px;
 }
 
-footer p{
+footer p {
     font-size: 1.5rem;
 }
 
@@ -60,10 +63,8 @@ footer p{
 
 /* main */
 
-.MembresiaLogo{
+.MembresiaLogo {
     background-position: center;
     width: 1200px;
     height: 333px;
 }
-
-/* footer */
