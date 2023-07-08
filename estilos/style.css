@@ -1,6 +1,13 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
 /*header*/
 header {
     background-color: #f6beca;
+    display: flex;
 }
 
 header img {
@@ -25,9 +32,7 @@ header ul a {
     background-position: right;
     background-color: #f6beca;
     font-size: 2rem;
-    border: 3px pink solid;
-    width: 2000px;
-    
+    border: 3px rgb(255, 255, 255) solid;
 }
 
 h1 {
