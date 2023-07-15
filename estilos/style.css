@@ -1,22 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
 }
 
 /*header*/
 header {
     background-color: #f6beca;
-    
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
 }
 
 header img {
     width: 130px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+nav {
+    width: 50%;
 }
 
 header ul {
     list-style: none;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 header ul a {
@@ -50,6 +67,14 @@ h1 {
     text-align: center;
 }
 
+/* servicios*/
+/* main */
+.MembresiaLogo {
+    background-position: center;
+    width: 1200px;
+    height: 333px;
+}
+
 /* footer */
 
 footer {
@@ -63,14 +88,4 @@ footer img {
 
 footer p {
     font-size: 1.5rem;
-}
-
-/* servicios*/
-
-/* main */
-
-.MembresiaLogo {
-    background-position: center;
-    width: 1200px;
-    height: 333px;
 }
