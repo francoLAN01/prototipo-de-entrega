@@ -67,13 +67,55 @@ h1 {
     text-align: center;
 }
 
-/* servicios*/
-/* main */
-.MembresiaLogo {
-    background-position: center;
-    width: 1200px;
-    height: 333px;
+/*servicios*/
+
+.logocontacto{ 
+    background-color: transparent;
+    width: 1600px;
+    height: 550px;
+    padding: 70px 200px;
 }
+
+.textservis{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.store{
+    background-color: black;
+    margin: 10px;
+    padding: 20px;
+    width: 500px;
+}
+
+.h2lash {
+    font-weight: bold;
+    color: #F9B5D5;
+    text-align: center
+}
+
+.rosa-h3 {
+    font-weight: bold;
+}
+
+.flex{
+    display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex;
+		justify-content: space-between;
+}
+
+.flex > div{
+    flex-basis: 22%;
+}
+
+.extensiones {
+    border: 2px solid #F9B5D5;
+    padding: 30px 20px 0;
+    border-radius: 30px;
+    margin-bottom: 40px;
+
+}
+
+
 
 /* footer */
 
