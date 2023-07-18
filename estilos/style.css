@@ -71,11 +71,12 @@ h1 {
 
 /* index */
 
-ul, ol{
+ul,
+ol {
     list-style: none;
 }
 
-.navv li a{
+.navv li a {
     background-color: #f6beca;
     color: white;
     text-decoration: none;
@@ -84,20 +85,20 @@ ul, ol{
 }
 
 .navv li a:hover {
-    background-color:#f6beca;
+    background-color: #f6beca;
 }
 
-.navv > li{
+.navv>li {
     float: left;
 }
 
-.navv li ul{
+.navv li ul {
     display: none;
     position: absolute;
     min-width: 140px;
 }
 
-.navv li:hover > ul{
+.navv li:hover>ul {
     display: block;
 }
 
@@ -112,7 +113,7 @@ ul, ol{
     font-size: 20px;
 }
 
-.parrafo1{
+.parrafo1 {
     margin-bottom: 20px;
 }
 
@@ -160,9 +161,9 @@ ul, ol{
 
 /* sucursales */
 
-.mapalash{
+.mapalash {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     margin-top: 60px;
     background-color: #757575;
     border: 4px solid #f6beca;
@@ -171,16 +172,16 @@ ul, ol{
     margin-bottom: 60px;
 }
 
-.h2sucursal{
+.h2sucursal {
     font-size: 1.7rem;
     margin-top: 40px;
     text-align: center;
-    color:#888;
+    color: #888;
 }
 
-.localidad1{
+.localidad1 {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     margin-top: 60px;
     background-color: #757575;
     border: 4px solid #f6beca;
@@ -189,9 +190,9 @@ ul, ol{
     margin-bottom: 60px;
 }
 
-.localidad2{
+.localidad2 {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     margin-top: 60px;
     background-color: #757575;
     border: 4px solid #f6beca;
@@ -200,7 +201,7 @@ ul, ol{
     margin-bottom: 60px;
 }
 
-.parrafolocal{
+.parrafolocal {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 60px;
@@ -228,7 +229,7 @@ ul, ol{
     width: 390px;
 }
 
-.store2{
+.store2 {
     margin: 1px;
     padding: 20px;
     width: 500px;
@@ -263,6 +264,37 @@ ul, ol{
     margin-bottom: 40px;
     margin-left: 500px;
     margin-right: 500px;
+}
+
+/* tipos de ectensiones */
+
+ 
+
+.extensiones1 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 1.2rem;
+}
+
+.extensiones2 {
+    display: flex;
+    background-color: #000;
+    color: #e5e5e5;
+    margin-bottom: 60px;
+}  
+
+.parrafoextension2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+.h2extensiones {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 /* footer */
