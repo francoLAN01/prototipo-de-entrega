@@ -211,9 +211,10 @@ ol {
 /*servicios*/
 
 .logocontacto {
+    align-items: center;
     background-color: transparent;
     width: 1600px;
-    height: 550px;
+    height: 430px;
     padding: 70px 200px;
 }
 
