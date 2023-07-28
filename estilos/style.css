@@ -9,6 +9,20 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+p {
+    color: #222;
+    font-size: 16px;
+    max-width: 850px;
+    margin: 0 auto 20px;
+}
+
 /*header*/
 header {
     background-color: #f6beca;
@@ -65,7 +79,7 @@ h1 {
 
 .textIndex {
     margin-top: 20px;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     text-align: center;
 }
 
@@ -157,6 +171,29 @@ ol {
     display: flex;
     margin-left: 600px;
     margin-right: 600px;
+}
+
+/* franquicia */
+
+.franquicias1 {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgfranqui {
+    height: auto;
+    max-width: 100%;
+}
+
+.h4franquicia {
+    color: black;
+    font-weight: 600;
+}
+
+.pfranqui {
+    display: flexbox;
+    align-items: flex-start;
 }
 
 /* sucursales */
@@ -267,9 +304,9 @@ ol {
     margin-right: 500px;
 }
 
-/* tipos de ectensiones */
+/* tipos de extensiones */
 
- 
+
 
 .extensiones1 {
     text-align: center;
@@ -283,7 +320,7 @@ ol {
     background-color: #000;
     color: #e5e5e5;
     margin-bottom: 60px;
-}  
+}
 
 .parrafoextension2 {
     margin-top: 40px;
