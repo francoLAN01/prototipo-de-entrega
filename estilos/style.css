@@ -175,6 +175,13 @@ ol {
 
 /* franquicia */
 
+.h1franqui{
+    color: #000;
+    text-align:justify;
+    font-size: 2.1rem;
+    text-decoration: none;
+}
+
 .franquicias1 {
     max-width: 850px;
     margin-left: auto;
