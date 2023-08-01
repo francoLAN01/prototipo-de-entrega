@@ -175,9 +175,9 @@ ol {
 
 /* franquicia */
 
-.h1franqui{
+.h1franqui {
     color: #000;
-    text-align:justify;
+    text-align: justify;
     font-size: 2.1rem;
     text-decoration: none;
 }
@@ -187,6 +187,24 @@ ol {
     margin-left: auto;
     margin-right: auto;
 }
+
+.formulario {
+    display: block;
+    flex-direction: row;
+    max-width: 100%;
+    border: 1px solid #e5e5e5;
+    padding: 200px 4px;
+    color: #888;
+    background: #fdfdfd;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+}
+
 
 .imgfranqui {
     height: auto;
