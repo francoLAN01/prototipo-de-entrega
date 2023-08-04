@@ -270,6 +270,10 @@ ol {
     font-size: 1.1rem;
 }
 
+.pviaje {
+    margin-bottom: 50px;
+}
+
 /*servicios*/
 
 .logocontacto {
@@ -362,24 +366,26 @@ ol {
 
 /* footer */
 
+
 .footerindex {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 6px;
 }
 
-footer {
+footer section {
+    text-align: center;
     background-color: #f6beca;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    text-align: center;
+
 }
 
 input[type="submit"] {
     background: #fff;
     color: #000;
-    width: 100%;
+    width: 50%;
     font-size: 18px;
     font-weight: 300;
     text-align: left;
@@ -388,22 +394,37 @@ input[type="submit"] {
     margin-bottom: 10px;
 }
 
+/*
 input[type="text"],
-select {
+select {*/
+
+.inputgeneral {
+    display: block;
+    min-width: 97%;
+    margin: 12px 0;
+    background: #222;
+    color: #f3e0e0;
+    border: none;
+    font-size: 12px;
+    padding: 10px 0px 10px 12px;
+}
+
+/*
+footer viejo
+
+    background-color: #000;
     border: 1px solid #e5e5e5;
     padding: 6px 4px;
     color: #888;
-    margin: 0;
-    width: 99%;
+    width: 50%;
     display: block;
     margin-bottom: 20px;
     background: #fdfdfd;
-    margin-top: 10px;
-}
+    margin-top: 10px;*/
 
 footer img {
-    width: 70px;
-    margin-top: 60px;
+    padding: 20px 1px;
+    width: 80px;
 }
 
 footer p {
