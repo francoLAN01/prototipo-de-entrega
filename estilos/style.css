@@ -24,21 +24,6 @@ p {
 }
 
 /*header*/
-header {
-    background-color: #f6beca;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0px;
-}
-
-header img {
-    width: 130px;
-    margin-top: 8px;
-    margin-left: 8px;
-}
 
 nav {
     width: 50%;
@@ -53,6 +38,22 @@ header ul {
 header ul a {
     text-decoration: none;
     color: black;
+}
+
+header {
+    background-color: #f6beca;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+header img {
+    width: 130px;
+    margin-top: 8px;
+    margin-left: 8px;
 }
 
 /* main */
@@ -132,8 +133,8 @@ ol {
 }
 
 .visitadefranquicia {
-    color: #fff;
-    background-color: #2a2a2a;
+    color: #ffffff;
+    background-color: #000000;
     display: inline-block;
     margin-bottom: 0;
     text-align: center;
@@ -151,23 +152,25 @@ ol {
 }
 
 .valenyro {
+    font-size: 1.2rem;
     align-items: center;
     color: white;
     margin-top: 40px;
-    border: 4px solid #f6beca;
-    background: #757575;
+    border: 3px solid #f6beca;
+    background: #ffffff;
     display: flex;
     margin-left: 70px;
     margin-right: 70px;
 }
 
 .franco {
+    font-size: 1.2rem;
     align-items: center;
     color: white;
     margin-top: 40px;
     margin-bottom: 40px;
-    border: 4px solid #f6beca;
-    background: #757575;
+    border: 3px solid #f6beca;
+    background: #ffffff;
     display: flex;
     margin-left: 600px;
     margin-right: 600px;
@@ -192,10 +195,9 @@ ol {
     display: block;
     flex-direction: row;
     max-width: 100%;
-    border: 1px solid #e5e5e5;
+    border: 1px solid #ffffff;
     padding: 200px 4px;
-    color: #888;
-    background: #fdfdfd;
+    color: #383838;
     margin-inline-start: 2px;
     margin-inline-end: 2px;
     padding-block-start: 0.35em;
@@ -205,6 +207,29 @@ ol {
     min-inline-size: min-content;
 }
 
+.nombreyapellido {
+    display: block;
+    flex-direction: row;
+    max-width: 100%;
+    padding: 10px 4px;
+    padding-inline-start: 20%;
+}
+
+.emailynumero {
+    display: block;
+    flex-direction: row;
+    max-width: 100%;
+    padding: 20px 4px;
+    padding-inline-start: 18%;
+}
+
+.city {
+    display: block;
+    flex-direction: row;
+    max-width: 100%;
+    padding: 10px 4px;
+    padding-inline-start: 20%;
+}
 
 .imgfranqui {
     height: auto;
@@ -335,7 +360,11 @@ ol {
 
 /* tipos de extensiones */
 
-
+.h1pestañas{
+    margin-top: 60px;
+    color: #383838;
+    text-decoration: none;
+}
 
 .extensiones1 {
     text-align: center;
@@ -346,9 +375,18 @@ ol {
 
 .extensiones2 {
     display: flex;
-    background-color: #000;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 300px 10px 300px;
+    margin: 15px;
+    background-color: #ffffff;
     color: #e5e5e5;
     margin-bottom: 60px;
+}
+
+.parrafo1d{
+    display: block;
+    padding: 0px 0px 0px 30px;
 }
 
 .parrafoextension2 {
@@ -366,20 +404,41 @@ ol {
 
 /* footer */
 
+footer p {
+    font-size: 1.2rem;
+}
 
-.footerindex {
-    display: flex;
-    flex-direction: row;
-    margin-top: 6px;
+.centralfooter {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.imgfooter {
+    margin-top: 20px;
+    margin-left: 110px;
+}
+
+.emailfooter {
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.emailfooter-2 {
+    display: block;
+    min-width: 97%;
+    margin: 12px 0;
+    background: #222;
+    color: #f3e0e0;
+    border: none;
+    font-size: 12px;
+    padding: 1px 0px 1px 1px;
 }
 
 footer section {
-    text-align: center;
     background-color: #f6beca;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
 input[type="submit"] {
@@ -390,7 +449,7 @@ input[type="submit"] {
     font-weight: 300;
     text-align: left;
     border: 1px solid #000;
-    padding: 8px;
+    padding: 8px 8px;
     margin-bottom: 10px;
 }
 
@@ -422,11 +481,12 @@ footer viejo
     background: #fdfdfd;
     margin-top: 10px;*/
 
-footer img {
-    padding: 20px 1px;
-    width: 80px;
-}
-
-footer p {
-    font-size: 1.5rem;
+.Lashesdiv {
+    padding: 0px 0px;
+    margin: 10px;
+    padding: 1px 950px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
 }
